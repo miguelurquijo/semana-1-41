@@ -85,16 +85,6 @@ body{
     /* margin-bottom: 20px; */
 }
 
-/* Seccion del Equipo */
-
-
-.section-3{
-    height: 500px;
-    color: white;
-
-
-}
-
 .team-members {
     display: flex;
     align-items: center;
@@ -128,3 +118,40 @@ body{
 
 
   
+=======
+.tiposGuitarraTitulos{
+    color: white;
+}
+
+.borde{
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: white;
+}
+
+.section-text{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.service-content{
+    padding: 0.5em 0;
+}
+
+.service-text{
+    padding: 10px;
+    text-align: justify;
+    bottom: 0;
+    color: white;
+}
+
+.col-3{
+    width: 33.08%;
+    height: 470px;
+    display: inline-block;
+    padding: -15px;
+    margin-top: 5px;
+    text-align: center;
+}
