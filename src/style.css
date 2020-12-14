@@ -85,46 +85,47 @@ body{
     /* margin-bottom: 20px; */
 }
 
-/* Seccion del Equipo */
+/* Seccion de Los tipos de Guitarras */
+
+.section-1{
+    height: 850px;
 
 
-.section-3{
-    height: 500px;
+}
+
+.tiposGuitarraTitulos{
     color: white;
-
-
 }
 
-.team-members {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.borde{
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: white;
 }
 
-.service-text.memebers{
-    font-style: italic; 
+.section-text{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
-.col-5{
-    width: 22%;
+.service-content{
+    padding: 0.5em 0;
+}
+
+.service-text{
+    padding: 10px;
+    text-align: justify;
+    bottom: 0;
+    color: white;
+}
+
+.col-3{
+    width: 33.08%;
     height: 470px;
     display: inline-block;
-    margin: 5px 4px 0;
-    text-align: justify;
-    color: white;
-    margin-right: 2%;
+    padding: -15px;
+    margin-top: 5px;
+    text-align: center;
 }
-
-.image-cropper {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-    align-content: center;
-    
-    
-
-  }
-
-
-  
