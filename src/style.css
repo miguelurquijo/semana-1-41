@@ -85,21 +85,7 @@ body{
     /* margin-bottom: 20px; */
 }
 
-.footer{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    padding: 50px 0;
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.footer_columna{
-    width: 50%;
-}
-
-.footer-copyright{
-=======
 /* Seccion de Los tipos de Guitarras */
 
 .section-1{
@@ -144,3 +130,170 @@ body{
     margin-top: 5px;
     text-align: center;
 }
+
+
+/* Seccion de Historias de la Pagina */
+
+.section-2{
+    height: 800px;
+
+}
+
+.section-news > div:first-child{
+    margin-bottom: 2px; 
+}
+.news{
+    width: 100%;
+    height: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+}
+
+.news > div:first-child{
+    margin: 0 6px;
+}
+
+.news-data{
+    width: 60%;
+    height: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; 
+}
+
+.news-image{
+    margin: 10px 0;
+    padding: 0 40px;
+    color: white;
+}
+
+.news-text{
+    color: white;
+    text-align: justify;
+    width: 49%;
+    padding: 1em 0;
+}
+
+.news-text > span.news-url{
+    text-align: right;
+}
+
+
+.fa-ambulance.news-logo{
+    padding: 0.25em 0;
+}
+
+
+.news-url{
+    font-size: 10px;
+    float: right;
+}
+
+.news-url > a{
+
+    color: #ffffff; 
+}
+
+
+/* Seccion del Equipo */
+
+
+.section-3{
+    color: white;
+
+
+}
+
+.team-members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-text.memebers{
+    font-style: italic; 
+}
+
+.col-5{
+    width: 22%;
+    height: 470px;
+    display: inline-block;
+    margin: 5px 4px 0;
+    text-align: justify;
+    color: white;
+    margin-right: 2%;
+}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    align-content: center;
+    
+    
+
+  }
+
+
+/* Seccion del Footer */
+
+.footer{
+    
+    height: 200px;
+    bottom: 0px;
+    /* position: fixed; */
+    /* width: 1200px; */
+}
+
+.copyright-text{
+    width: 100%;
+    height: inherit;
+    text-align:center;
+}
+
+.copyright-notice{
+    padding: 0.25em 0;
+    list-style-type: none;
+    text-align: end;
+    width: 100%;
+}
+
+.global-copyright{
+    color: white;
+    height: 60px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.ftr-legal{
+    margin-top: 0;
+    color: white;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: disc;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.autor{
+    width: 100%;
+    color: white;
+    height: inherit;
+    text-align:center;
+}
+
+.imagNoticias {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    align-content: center;
+}
+
+
+
