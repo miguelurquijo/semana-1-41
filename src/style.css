@@ -85,14 +85,40 @@ body{
     /* margin-bottom: 20px; */
 }
 
-/* Seccion de Los tipos de Guitarras */
-
-.section-1{
-    height: 850px;
-
-
+.team-members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.service-text.memebers{
+    font-style: italic; 
+}
+
+.col-5{
+    width: 22%;
+    height: 470px;
+    display: inline-block;
+    margin: 5px 4px 0;
+    text-align: justify;
+    color: white;
+    margin-right: 2%;
+}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    align-content: center;
+    
+    
+
+  }
+
+
+  
+=======
 .tiposGuitarraTitulos{
     color: white;
 }
