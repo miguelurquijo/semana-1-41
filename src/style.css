@@ -85,6 +85,21 @@ body{
     /* margin-bottom: 20px; */
 }
 
+.footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_columna{
+    width: 50%;
+}
+
+.footer-copyright{
+=======
 /* Seccion de Los tipos de Guitarras */
 
 .section-1{
