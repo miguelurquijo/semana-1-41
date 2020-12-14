@@ -51,3 +51,81 @@ body{
     list-style-type: none;
     text-align: end;
     width: 100%;
+
+}
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 3;
+    border-right: 1cm;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+
+.main-menu__link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.container-imagen{
+    background-image: url('./bg.png');
+    height: 300px;
+    /* margin-bottom: 20px; */
+}
+
+/* Seccion de Los tipos de Guitarras */
+
+.section-1{
+    height: 850px;
+
+
+}
+
+.tiposGuitarraTitulos{
+    color: white;
+}
+
+.borde{
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: white;
+}
+
+.section-text{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.service-content{
+    padding: 0.5em 0;
+}
+
+.service-text{
+    padding: 10px;
+    text-align: justify;
+    bottom: 0;
+    color: white;
+}
+
+.col-3{
+    width: 33.08%;
+    height: 470px;
+    display: inline-block;
+    padding: -15px;
+    margin-top: 5px;
+    text-align: center;
+}
